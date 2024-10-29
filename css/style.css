@@ -13,10 +13,7 @@
     color: var(--main-color);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
+
 
 .main-container {
     width: 100%;
@@ -164,4 +161,14 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+nav{
+    display: flex;
 }
