@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0 ;
 }
 
 :root {
@@ -12,8 +14,6 @@
 .fa-solid {
     color: var(--main-color);
 }
-
-
 
 .main-container {
     width: 100%;
@@ -166,9 +166,34 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    width: fit-content;
 }
 
-nav{
+nav div{
     display: flex;
+}
+
+nav div a {
+    margin-left:34px ;
+    margin-right: 34px;
+    padding-top: 13.5px;
+}
+
+nav div a:active{
+    border-top: 2px solid;
+    padding-top: 13.5px;
+    color: #0065FC;
+
+}
+
+.Logo-booki {
+    width: 61.09px;
+    height: 19px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header {
+    height: 79px;
 }
