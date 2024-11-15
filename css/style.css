@@ -70,12 +70,51 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 871px;
+    margin-right: 30px;
+}
+
+.hebergements-card {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hebergements .card{
+    height: 207.25px;
+    width: 250.33px;
+}
+
+.hebergements h2{
+    margin-bottom: 30px;
+}
+
+.hebergements-card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    gap: 8px;
+}
+
+.hebergements-card img{
+    width: 250.33px;
+    height: 124px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 5px;
+}
+
+
+.afficher {
+    margin-top: 30px;
 }
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 429px;
 }
 
 .populaires-title {
@@ -197,6 +236,7 @@ nav div a:hover{
 
 header {
     height: 79px;
+    width: 1440px;
 }
 
 form {
